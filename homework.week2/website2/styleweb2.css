@@ -1,0 +1,49 @@
+.footerContainer {
+    text-transform: capitalize;
+    font-size: large;
+    background-color: rgb(103, 51, 152);
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+  }
+  #upper {
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: aliceblue;
+    cursor: pointer;
+  }
+  .item {
+    margin-left: 120px;
+  }
+  .firstLine {
+    font-size: x-large;
+  }
+  li {
+    list-style-type: none;
+  }
+  .theline {
+    background-color: palevioletred;
+    width: 55px;
+    height: 2px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .icon{
+    margin: 5px;
+  }
+  .icon:hover {
+    color: aliceblue;
+    cursor: pointer;
+  }

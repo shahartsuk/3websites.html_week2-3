@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+    width: 80%;
+    height: 1200px;
+    margin-left: 200px;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  19% 17% 21% 21% 22% ;
+    grid-template-areas: 
+    "header"
+    "info" 
+    "item1" 
+    "item2"
+    "item3";
+}
+
+.headimg{
+    height: 230px;
+    width: 100%;
+    
+}
+.infoimg{
+    padding-left: 30px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.header{
+    grid-area: "header";
+}
+.info{
+    grid-area: "info";
+    margin-top: 0;
+}
+.item1{
+    grid-area: "item1";
+    display: flex;
+    flex-direction: row;
+}
+
+.item2{
+    grid-area: "item2";
+    display: flex;
+    flex-direction: row;
+}
+.item3{
+    grid-area: "item3";
+    display: flex;
+    flex-direction: row;
+}
+
+
